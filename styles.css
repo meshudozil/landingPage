@@ -1,0 +1,146 @@
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    padding-right: 50px;
+    align-items: center;
+    padding-left: 0.7%;
+    
+}
+
+.header1 {
+    margin-right: auto;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #393e46;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+li {
+   font-size: medium;
+   font-family: 'Times New Roman', Times, serif;
+   color: #393e46;
+   
+}
+
+a {
+    color: #393e46;
+    text-decoration: none;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+nav {
+    margin-left: 0%;
+    background-color: #e3e3e3;
+    flex: 1 1 auto;
+    border-style: solid;
+    border-color: #e3e3e3;
+    margin: 0%;
+    padding: 0%;
+    position: fixed;
+    width: 100%;
+}
+
+.main-container div {
+    flex: 1 1 600px;
+}
+
+#love {
+    display: flex;
+    flex-direction: row;
+}
+
+#love div {
+    flex: 1 1 auto;
+    width: 350px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+
+.big-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e3e3e3;
+}
+
+.sub2 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.sub2 p {
+    color: #393e46;
+}
+
+.sub2 p {
+    color: #393e46;
+    font-size: smaller;
+}
+
+#about {
+    text-align: justify;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#about h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #393e46;
+}
+
+#about p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    color: #393e46;
+    
+}
+
+#clothing {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;  
+}
+
+.clth1 h1 {
+    text-align: right;
+    color: #455d7a;
+}
+
+.clth2 h1 {
+    color: #f95959;
+}
+
+#clothing img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+
